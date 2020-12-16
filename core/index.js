@@ -1,33 +1,5 @@
 const core = () => {
-    return "This is a core module"
+    return "This is a core module version 2"
 }
-const core = () => {
-    return "This is a core module"
-}
-
-const core = () => {
-    return "This is a core module"
-}
-
-const core = () => {
-    return "This is a core module"
-}
-
-const core = () => {
-    return "This is a core module"
-}
-
-const core = () => {
-    return "This is a core module"
-}
-
-const core = () => {
-    return "This is a core module"
-}
-
-const core = () => {
-    return "This is a core module"
-}
-
 
 module.exports = {core}
