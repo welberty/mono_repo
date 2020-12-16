@@ -3,11 +3,13 @@ on:
   push:
     branches:
       - master   
-      - core/develop
+      - 'core/develop'
       paths:
         - 'core/**'
   pull_request:
     types: [opened, synchronize, reopened]
+    paths:
+      - 'core/**'
 jobs:
   sonarcloud:
     name: SonarCloud
