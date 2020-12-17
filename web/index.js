@@ -1,5 +1,8 @@
 const express = require("express")
+
 const app = express()
+app.use(helmet());
+
 const {core} = require("core")
 const {infra} = require("infra")
 
