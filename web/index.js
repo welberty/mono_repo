@@ -2,8 +2,7 @@ const express = require("express")
 
 const app = express()
 app.use(helmet());
-/*app.disable("x-powered-by");*/
-/*app.disable("x-powered-by");*/
+app.disable("x-powered-by");
 
 
 const {core} = require("core")
